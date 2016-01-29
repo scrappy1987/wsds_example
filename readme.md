@@ -1,4 +1,4 @@
-PAMM - SEED
+PAMM - SEEDS
 -----------
 
 PAMM-SEED is a template for building Web Applications using the PAMM stack:
