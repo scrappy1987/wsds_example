@@ -53,6 +53,13 @@
                     templateUrl: "feature/project/project-form.html"
                 }
             }
+        }).state("home.item", {
+            url: "/item",
+            views: {
+                "home-content": {
+                    templateUrl: "feature/item/item.html"
+                }
+            }
         })
     });
 }());

@@ -10,6 +10,7 @@
                     <li><a data-ng-click="homeCtrl.navigateToAddProject()">Add New Project</a></li>
                 </ul>
             </li>
+            <li data-ng-class="{'active': homeCtrl.isAtItem()}"><a data-ng-click="homeCtrl.navigateToItem()">Item</a></li>
             <li class="navbar-right right-nav-tab"><a data-ng-click="homeCtrl.logout()">Logout</a></li>
         </ul>
 

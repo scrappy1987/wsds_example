@@ -16,6 +16,10 @@
             return $state.includes("home.project");
         };
 
+        vm.isAtItem = function () {
+            return $state.is("home.item");
+        };
+
         vm.navigateToDashboard = function () {
             $state.go("home.dashboard");
         };
@@ -26,6 +30,10 @@
 
         vm.navigateToProject = function () {
             $state.go("home.project");
+        };
+
+        vm.navigateToItem = function () {
+            $state.go("home.item");
         };
 
         vm.logout = function () {
