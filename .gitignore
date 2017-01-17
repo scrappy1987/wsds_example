@@ -1,5 +1,8 @@
 .idea
 .history
+.settings
+.project
+.classpath
 node_modules
 project/target
 svc/logs
