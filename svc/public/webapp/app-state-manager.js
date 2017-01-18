@@ -31,11 +31,26 @@
                     templateUrl: "feature/home/home-index.html"
                 }
             }
+
         }).state("home.dashboard", {
             url: "/dashboard",
             views: {
                 "home-content": {
                     templateUrl: "feature/dashboard/dashboard-index.html"
+                }
+            }
+        }).state("home.project", {
+            url: "/project",
+            views: {
+                "home-content": {
+                    templateUrl: "feature/project/project-index.html"
+                }
+            }
+        }).state("home.projectadd", {
+            url: "/project/add",
+            views: {
+                "home-content": {
+                    templateUrl: "feature/project/project-form.html"
                 }
             }
         })
