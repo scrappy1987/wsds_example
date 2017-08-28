@@ -1,7 +1,5 @@
-PAMM - SEED
+WSDS_EXAMPLE is based upon the PAMM seed and utilises the following technical stack:
 -----------
-
-PAMM-SEED is a template for building Web Applications using the PAMM stack:
 
 -   [Play](https://www.playframework.com/) for server side web pages and services
 
@@ -15,7 +13,7 @@ PAMM-SEED is a template for building Web Applications using the PAMM stack:
 Pre-requisites
 -----
 
-Prior to running the PAMM seed the Play framework should be installed on your machine. See the [Play website](https://www.playframework.com/download) for installation instructions.
+Prior to running the application the simple build tool (SBT) should be installed on your local environment. A h2 database should also be installed and run to work in a development environment.
 
 
 Index
